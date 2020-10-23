@@ -21,3 +21,6 @@ inputs:
   login:
     description: 'Authentication token of a SonarQube user'
     required: true
+  exclusions:
+    description: 'Files & folders to be excluded'
+    required: false
